@@ -41,6 +41,14 @@ During running of some tools, scripts will try to clone the [ogr2osm repository]
 
 ## Pipeline
 
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
+
 ```
       Input data
           |
