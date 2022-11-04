@@ -43,7 +43,7 @@ During running of some tools, scripts will try to clone the [ogr2osm repository]
 
 ```mermaid
   graph TD;
-      A-->B;
+      "Input data"-->"Your script to convert to input .csv";
       A-->C;
       B-->D;
       C-->D;
