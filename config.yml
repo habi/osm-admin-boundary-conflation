@@ -2,10 +2,10 @@
 country: Switzerland
 
 # Used as a template for "source" tag of changesets
-changeset_source: "open Serbian cadastre data Jan 2022"
+changeset_source: "boundary.sosm.ch / swissboundaries3d_2023-01_2056_5728.shp.zip"
 
 # Used as a comment for changesets when doing semi-automatic conflation
-changeset_comment: "Serbian bot - conflating boundaries (https://lists.openstreetmap.org/pipermail/imports/2020-January/006149.html)."
+changeset_comment: "Swiss boudary conflation bot (https://ANNOUNCEMENT)."
 
 # Name of the OSM tag that keeps ID of your level 9 entities (settlements...). It can be as simple as "ref"
 level9_ref_key: "swisstopo:SHN"
@@ -15,8 +15,9 @@ level8_ref_key: "ref:RS:opstina"
 
 # Overpass endpoint. You need to have docker to set up your own Overpass instance (see "refresh-osm-data.sh" for details)
 # Commented out are other potential options, but beware of throttling and misuse
+overpass_url: "http://overpass-turbo.osm.ch"
 # overpass_url: "http://localhost:12345/api/interpreter"
-overpass_url: "https://lz4.overpass-api.de/api/interpreter"
+#overpass_url: "https://lz4.overpass-api.de/api/interpreter"
 # overpass_url: "http://overpass-api.de/api/interpreter"
 
 # If True, scripts will just assess conflation potential and will not submit anything to OSM.
