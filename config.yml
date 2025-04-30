@@ -32,7 +32,7 @@ auto_proceed: True
 # ways will be reported as not eligible for conflation.
 unglue_ways_as_needed: True
 
-# How far apart any endpoints of the way should be from OSM way to consider them eligable for conflation.
+# How far apart any endpoints of the way should be from OSM way to consider them eligible for conflation.
 # If any endpoint is in greater distance than this, script will not conflate this road. If you set this too low,
 # lot of ways that could be conflated will be reported as not possible. If you set this too high, you might get false
 # positives and wrong ways could be conflated by error.
